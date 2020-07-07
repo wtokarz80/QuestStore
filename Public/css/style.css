@@ -1,80 +1,210 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Garamond, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40vh;
+    width: 100%;
     background: url(../img/train.jpg) no-repeat center center;
     background-size: cover;
-    height: 600px;
-    text-align: center;
-}
-body {
-    font-family: Garamond, monospace;
-    font-weight: 100;
 }
 
-.content {
-    margin: 0 auto;
-    max-width: 940px;
-    padding: 0 10px;
-}
-
-header .content {
-    position: relative;
-    top: 350px;
-}
-
-header h1 {
-    color: #fff;
-    line-height: 100px;
-    font-size: 80px;
-    margin-top: 0;
-    margin-bottom: 50px;
+header div {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
     text-transform: uppercase;
-}
-
-header p {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 8px;
-    margin-bottom: 40px;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 4vh;
+    color: white;
 }
 
 nav {
-    background: #000;
-    height: 80px;
+    
+    line-height: 6vh;
     width: 100%;
+    background-color: black;
+    padding-left: 20em;
+
 }
 
 nav ul {
-    height: 80px;
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    margin: 0 auto;
-    padding: 0;
 }
+
 
 nav ul li {
-
-    display: inline-block;
-    height: 80px;
-    line-height: 80px;
-    list-style: none;
-    padding: 0 10px;
-    transition: background .5s;
-    color: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
-nav ul li:hover {
+ nav a {
+    display: block;
+    background-color: black;
+    width: 8vw;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+
+nav ul li a:hover {
     background: #117bff;
     cursor: pointer;
-    transition: background .5s;
 }
 
-a {
-    color: #fff;
-    text-decoration: none
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    min-height: 49vh;
+}
+
+
+
+/* RIGHT SIDE BAR */
+
+.options {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+#options-left {
+    background-color: white;
+    width: 50%;
+}
+
+#options-right {
+    background-color: gray;
+    width: 50%;
+}
+
+.options ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options h1 {
+    text-align: center;
+    line-height: 4em;
+}
+
+.options ul li a {
+    margin-bottom: 1em;
+    border-radius: 20px;
+    display: block;
+    background-color: black;
+    width: 8vw;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2em;
+    transition: all 0.3s ease-out;
+}
+
+.options ul li a:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+/* MAIN CONTENT */
+
+
+.maincontent {
+    max-width: 60%;
+}
+
+.maincontent h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+.items-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-image: url(../img/card_template.png);
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    width: 10.6em;
+    height: 15em;
+    background-color: blue;
+}
+
+
+/* RIGHT SITE BAR */
+
+.right-bar {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    /* min-height: 50vh; */
+    /* background-color:dimgrey; */
+}
+
+#right-bar-left {
+    background-color: grey;
+    width: 50%;
+    
+}
+
+#right-bar-left h2 {
+    font-size: 1.2em;
+    margin-left: 0.5em;
+}
+
+#right-bar-right {
+    background-color: white;
+    width: 50%;
+}
+
+
+footer {
+    color: white;
+    line-height: 5vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+
 }
