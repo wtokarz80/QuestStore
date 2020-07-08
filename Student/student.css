@@ -4,17 +4,17 @@
 .options {
     display: flex;
     flex-direction: row;
-    width: 18%;
+    width: 14%;
 }
 
-#options-left {
+/* #options-left {
     background-color: white;
     width: 30%;
-}
+} */
 
 #options-right {
     background-color: #eee;
-    width: 70%;
+    width: 100%;
 }
 
 .options ul {

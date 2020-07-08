@@ -82,11 +82,13 @@ nav ul li a:hover {
 
 
 main {
+    /* margin-left: 10%;
+    margin-right: 10%; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    width: 100%;
+    width: 90%;
     min-height: 48vh;
 }
 
@@ -97,17 +99,17 @@ main {
 .options {
     display: flex;
     flex-direction: row;
-    width: 18%;
+    width: 14%;
 }
 
-#options-left {
+/* #options-left {
     background-color: white;
     width: 30%;
-}
+} */
 
 #options-right {
     background-color: #eee;
-    width: 70%;
+    width: 100%;
 }
 
 .options ul {
@@ -157,7 +159,7 @@ main {
 
 
 .maincontent {
-    max-width: 64%;
+    max-width: 72%;
 }
 
 .maincontent h1 {
@@ -188,14 +190,14 @@ main {
 .right-bar {
     display: flex;
     flex-direction: row;
-    width: 18%;
+    width: 14%;
     /* min-height: 50vh; */
     /* background-color:dimgrey; */
 }
 
 #right-bar-left {
     background-color: #eee;
-    width: 70%;
+    width: 100%;
     
 }
 
@@ -204,10 +206,10 @@ main {
     margin-left: 0.5em;
 }
 
-#right-bar-right {
+/* #right-bar-right {
     background-color: white;
     width: 30%;
-}
+} */
 
 
 footer {
