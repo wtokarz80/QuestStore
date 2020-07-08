@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="../Public/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../Public/css/loginForm.css">
   <script src="../Public/js/login.js" defer></script>
   <title>School log in</title>
 </head>
@@ -39,19 +40,16 @@
         </div>
       </aside>
 
-      <section class="maincontent">
-        <h1>Log in</h1>
-        <div class="items-content">
+      <section>
+        <div class="items-content form-image">
           <div class="login-form">
             <form action= "../index.html" name="form" onkeyup="changeButtonStatus()">
-              <label for="email">Email: </label>
+              <label for="email"></label>
               <br>
-              <input type="text" id="email" name="email">
+              <input type="text" id="email" name="email" placeholder="email">
+              <label for="password"></label>
               <br>
-
-              <label for="password">Password:</label>
-              <br>
-              <input type="password" id="password" name="password">
+              <input type="password" id="password" name="password" placeholder="password">
               <br>
               <input class="button" type="submit" value="LogIn" id="login-btn" name="login-btn"
                      disabled="disabled" onclick="alertTheUser(document.getElementById('email').value)">
