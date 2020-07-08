@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    /* background-image: linear-gradient(to bottom right, rgba(5, 202, 5, 0.8), rgba(0, 0, 0, 0.918), rgba(3, 156, 3, 0.767)); */
     background-image: linear-gradient(to bottom right, rgba(0,100,0,0.8), black, rgba(0,100,0,0.8));
 }
 
@@ -113,6 +114,8 @@ main {
 
 #options-right {
     /* background-color: #eee; */
+    background-color: rgba(0,0,0,0.2);
+    
     width: 100%;
 }
 
@@ -151,7 +154,9 @@ main {
 }
 
 .options ul li a:hover {
-    background: #ccc;
+    /* background: rgba(0,0,0,0.5); */
+    /* background: rgba(228, 217, 111, 1); */
+    background: rgba(255, 215, 0, 0.6);
     color: black;
     cursor: pointer;
     /* border: 2px solid black; */
@@ -201,6 +206,7 @@ main {
 
 #right-bar-left {
     /*background-color: #eee;*/
+    background-color: rgba(0,0,0,0.2);
     width: 100%;
     
 }
