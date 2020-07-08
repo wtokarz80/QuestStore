@@ -1,0 +1,77 @@
+/* MAIN CONTENT */
+
+
+.maincontent {
+    max-width: 64%;
+    
+}
+
+/* .maincontent h1 {
+    margin: 1em;
+    padding-right: 30em;
+} */
+
+.items-content {
+    /* padding-left: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80vh;
+}
+
+#item {
+    background-image: url(img/card_template.png);
+    background-size: cover;
+    margin: 5em 5em 1em 1em;
+    padding: 5%;
+    width: 10.6em;
+    height: 15em;
+    background-color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+
+}
+
+form > .input {
+    margin: 0 1em 1em 1em;
+    padding-left: 0.5em;
+    background: #FCFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+#description {
+    margin: 0 1em 1em 1em;
+    padding-left: 0.5em;
+    background: #FCFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 14vh;
+}
+
+
+
+button {
+    margin: 0 1em 1em 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    background-color: #ccc;
+    color: black;
+    line-height: 2em;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button, form > input {
+    font-size: 1em;
+    border-radius: 5px;
+}
