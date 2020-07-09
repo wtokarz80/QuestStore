@@ -1,6 +1,6 @@
 
 .options ul li a div {
-    background: url(img/severus.png) no-repeat center center;
+    background: url(../img/card_template.png) no-repeat center center;
     background-size: cover;
     margin: 1em;
     padding: 5%;
@@ -17,7 +17,7 @@
 
 .maincontent {
     max-width: 64%;
-}
+} 
 
 
 .items-content {
@@ -42,12 +42,15 @@ form {
 form > .input {
     margin: 0 1em 1em 1em;
     padding-left: 0.5em;
-    background: #FCFDFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 4px 5px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     line-height: 1.8em;
     background-color: #ccc;
 
+}
+
+#description {
+    height: 20vh;
 }
 
 
@@ -91,4 +94,15 @@ button, form > input {
 #right-bar-left p {
     font-size: 1.2em;
     margin-left: 0.5em;
+}
+
+form .radio {
+
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+
+form .radio input {
+    margin-left: 2em;
+    height: 2vh;
 }
