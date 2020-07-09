@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/loginForm.css">
+  <link rel="stylesheet" type="text/css" href="../css/login-page.css">
   <script src="../js/login.js" defer></script>
   <title>School log in</title>
 </head>
@@ -33,9 +33,9 @@
         <div id="options-right">
           <h1>For presentation</h1>
           <ul>
-            <li><a href="#"><p>Admin page</p></a></li>
-            <li><a href="#"><p>Mentor page</p></a></li>
-            <li><a href=""><p>Student Page</p></a></li>
+            <li><a href="admin-menu.html"><p>Admin page</p></a></li>
+            <li><a href="mentor-menu.html"><p>Mentor page</p></a></li>
+            <li><a href="student-menu.html"><p>Student Page</p></a></li>
           </ul>
         </div>
       </aside>
@@ -49,10 +49,10 @@
               <input type="text" id="email" name="email" placeholder="email">
               <label for="password"></label>
               <br>
-              <input type="password" id="password" name="password" placeholder="password">
+              <input type="password" id="password" name="password" placeholder="password" onclick="alertTheUser(document.getElementById('email').value)">
               <br>
               <input class="button" type="submit" value="LogIn" id="login-btn" name="login-btn"
-                     disabled="disabled" onclick="alertTheUser(document.getElementById('email').value)">
+                     disabled="disabled" >
             </form>
           </div>
         </div>

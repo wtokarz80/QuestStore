@@ -164,11 +164,11 @@ main {
 
 /* MAIN CONTENT */
 
-.maincontent {
+.main-content {
     max-width: 72%;
 }
 
-.maincontent h1 {
+.main-content h1 {
     text-align: center;
     margin: 1em;
 }
@@ -229,3 +229,24 @@ footer {
     text-align: center;
 
 }
+.options ul li a div {
+    background: url(../../resources/img/card_template.png) no-repeat center center;
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    /* width: 10vh; */
+    height: 30vh;
+}
+
+<!--  -->
+
+.right-bar img {
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    /* width: 10vh; */
+    height: 28vh;
+}
+
+
+
