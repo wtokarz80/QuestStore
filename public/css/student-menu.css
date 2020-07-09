@@ -1,5 +1,9 @@
 
-/* RIGHT SIDE BAR */
+
+.items-content {
+    width: 80%;
+    justify-content: space-evenly;
+}
 
 .options {
     display: flex;
@@ -7,13 +11,7 @@
     width: 14%;
 }
 
-/* #options-left {
-    background-color: white;
-    width: 30%;
-} */
-
 #options-right {
-    /*background-color: #eee;*/
     width: 100%;
 }
 
@@ -24,43 +22,34 @@
     align-items: stretch;
 }
 
-.options h1 {
-    text-align: center;
-    line-height: 4em;
-}
 
 .options ul li a {
+    margin-top: 4em;
     margin-bottom: 1em;
-    /* border-radius: 20px; */
     display: block;
-    /* background-color: black; */
-    /* background-color: #eee; */
-    /* width: 8vw; */
-
     font-size: 1.2em;
-    color: black;
+    line-height: 4em;
+    color: white;
     text-decoration: none;
     text-align: center;
-    transition: all 0.3s ease-out;
-    
+    transition: all 0.3s ease-out;  
 }
 
-.options ul li a div {
+.options ul li a:hover {
+    background: rgba(255, 215, 0, 0.6);
+    color: black;
+    cursor: pointer;
+}
+
+#avatar {
     background: url(../../resources/img/harry2avatar.png) no-repeat center center;
     background-size: cover;
     margin: 1em;
     padding: 5%;
-    /* width: 10vh; */
     height: 30vh;
 }
 
-.options ul li a:hover {
-    background-color: transparent;
-    color: black;
-    cursor: auto;
-}
-
-#right-bar-left div {
+#right-bar-left div {  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
