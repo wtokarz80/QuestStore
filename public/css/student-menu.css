@@ -5,40 +5,9 @@
     justify-content: space-evenly;
 }
 
-.options {
-    display: flex;
-    flex-direction: row;
-    width: 14%;
-}
-
-#options-right {
-    width: 100%;
-}
-
 .options ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-
-.options ul li a {
     margin-top: 4em;
-    margin-bottom: 1em;
-    display: block;
-    font-size: 1.2em;
-    line-height: 4em;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease-out;  
-}
 
-.options ul li a:hover {
-    background: rgba(255, 215, 0, 0.6);
-    color: black;
-    cursor: pointer;
 }
 
 #avatar {
@@ -48,7 +17,7 @@
     padding: 5%;
     height: 30vh;
 }
-
+ 
 #right-bar-left div {  
     display: flex;
     flex-direction: row;
