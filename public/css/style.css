@@ -133,12 +133,7 @@ main {
 
 .options ul li a {
     margin-bottom: 1em;
-    /* border-radius: 20px; */
     display: block;
-    /* background-color: black; */
-    /*background-color: #eee;*/
-    /* width: 8vw; */
-
     font-size: 1.2em;
     color: white;
     text-decoration: none;
@@ -154,12 +149,9 @@ main {
 }
 
 .options ul li a:hover {
-    /* background: rgba(0,0,0,0.5); */
-    /* background: rgba(228, 217, 111, 1); */
     background: rgba(255, 215, 0, 0.6);
     color: black;
     cursor: pointer;
-    /* border: 2px solid black; */
 }
 
 /* MAIN CONTENT */
@@ -199,12 +191,10 @@ main {
     display: flex;
     flex-direction: row;
     width: 14%;
-    /* min-height: 50vh; */
-    /* background-color:dimgrey; */
+
 }
 
 #right-bar-left {
-    /*background-color: #eee;*/
     background-color: rgba(0,0,0,0.2);
     width: 100%;
     
@@ -214,11 +204,6 @@ main {
     font-size: 1.2em;
     margin-left: 0.5em;
 }
-
-/* #right-bar-right {
-    background-color: white;
-    width: 30%;
-} */
 
 
 footer {
@@ -234,17 +219,15 @@ footer {
     background-size: cover;
     margin: 1em;
     padding: 5%;
-    /* width: 10vh; */
     height: 30vh;
 }
 
-<!--  -->
+
 
 .right-bar img {
     background-size: cover;
     margin: 1em;
     padding: 5%;
-    /* width: 10vh; */
     height: 28vh;
 }
 
