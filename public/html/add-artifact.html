@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/add-artifact.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/update-artifact.css">
-    <link rel="icon" href="../public/img/favicon.ico">
-    <title>Update quest</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/add-artifact.css">
+    <link rel="icon" href="../../resources/img/favicon.ico">
+    <title>Add artifact</title>
 </head>
 
 <body>
@@ -37,7 +36,7 @@
             <aside class="options">
                 <div id="options-left"></div>
                 <div id="options-right">
-                    <h1>QUEST</h1>
+                    <h1>Artifact</h1>
                     <ul>
                         <li><a href="#"><div></div></a></li>
                     </ul>
@@ -48,16 +47,16 @@
                 <div class="items-content">
                     
                     <form action="#">
-                        <h1>UPDATE QUEST</h1>
-                        <input class="input" name="name" type="text" placeholder="Name of quest">
-                        <input class="input" name="value" type="text" placeholder="Value">
+                        <h1>NEW ARTIFACT</h1>
+                        <input class="input" name="name" type="text" placeholder="Name of artifact">
+                        <input class="input" name="price" type="text" placeholder="Value">
                         <textarea class="input" id="description" type="text" placeholder="Description"></textarea>
                         <div id="button">
                             <button type="submit">SUBMIT</button>
                         <button type="reset">RESET</button>
                         <div class="radio">
-                            <input id="quest-basic" type="radio" name="role"> Basic</input>
-                            <input id="quest-extra" type="radio" name="role"> Extra</input>
+                            <input id="quest-basic" type="radio" name="role"> Individual</input>
+                            <input id="quest-extra" type="radio" name="role"> Group</input>
                         </div>
                         </div>
                         
@@ -73,16 +72,8 @@
 
             <aside class="right-bar">
                 <div id="right-bar-left">
-                    <div id="name">
-                        <h2>Name:</h2>
-                        <p>Day out of school</p></div>
-                    <div id="value">
-                        <h2>Value:</h2>
-                        <p>20000 mc</p></div>
-                    <div id="quest-description">
-                        <h2>Description:</h2>
-                        <p>Students and a mentor have classes outside the school.</p>
-                    </div>
+
+
                 </div>
                 <div id="right-bar-right">
 
