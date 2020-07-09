@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Garamond, monospace;
+
     
 }
 
@@ -182,11 +184,12 @@ main {
     width: 10.6em;
     height: 15em;
     background-color: blue;
+    border-radius: 20px;
 }
 
 
 /* RIGHT SITE BAR */
-
+ 
 .right-bar {
     display: flex;
     flex-direction: row;
