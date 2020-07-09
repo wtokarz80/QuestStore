@@ -1,13 +1,5 @@
-.right-bar img {
-    background-size: cover;
-    margin: 1em;
-    padding: 5%;
-    /* width: 10vh; */
-    height: 28vh;
-}
-
 .item {
-    background-image: url(../img/parchment2.jpg);
+    background-image: url(../../resources/img/parchment2.jpg);
     background-size: cover;
     padding: 5%;
     width: 20em;

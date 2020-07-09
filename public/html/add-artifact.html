@@ -21,7 +21,7 @@
 
         </header>
 
-        <nav class="navbar">
+        <nav>
             <ul>
                 <li><a href="#">Start</a></li>
                 <li><a href="#">Quests</a></li>
@@ -43,20 +43,26 @@
                 </div>
             </aside>
 
-            <section class="maincontent">
+            <section class="main-content">
                 <div class="items-content">
                     
                     <form action="#">
                         <h1>NEW ARTIFACT</h1>
-                        <input class="input" name="name" type="text" placeholder="Name of artifact">
-                        <input class="input" name="price" type="text" placeholder="Value">
-                        <textarea class="input" id="description" type="text" placeholder="Description"></textarea>
+                        <label for="name"></label>
+                        <input class="input" id="name" type="text" placeholder="Name of artifact">
+
+                        <label for="price"></label>
+                        <input class="input" id="price" type="text" placeholder="Value">
+
+                        <label for="description"></label>
+                        <textarea class="input" id="description" placeholder="Description"></textarea>
+
                         <div id="button">
                             <button type="submit">SUBMIT</button>
                         <button type="reset">RESET</button>
                         <div class="radio">
-                            <input id="quest-basic" type="radio" name="role"> Individual</input>
-                            <input id="quest-extra" type="radio" name="role"> Group</input>
+                            <label><input id="quest-basic" type="radio" name="role"> Individual</label>
+                            <label><input id="quest-extra" type="radio" name="role"> Group</label>
                         </div>
                         </div>
                         
