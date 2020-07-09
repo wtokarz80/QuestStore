@@ -7,7 +7,7 @@ function validateEmail(emailValue) {
 function checkForWhitespace(firstValue, secondValue) {
     // const whiteSpaceRegex = /s+/;
     // return true;
-    return !(firstValue==="" || secondValue==="");
+    return !(firstValue==="" || secondValue==="" || !(validateEmail(firstValue)));
 }
 
 function alertTheUser(email) {
