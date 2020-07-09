@@ -49,10 +49,10 @@
               <input type="text" id="email" name="email" placeholder="email">
               <label for="password"></label>
               <br>
-              <input type="password" id="password" name="password" placeholder="password" onkeyup="alertTheUser()">
+              <input type="password" id="password" name="password" placeholder="password" onclick="alertTheUser(document.getElementById('email').value)">
               <br>
               <input class="button" type="submit" value="LogIn" id="login-btn" name="login-btn"
-                     disabled="disabled" onclick="alertTheUser(document.getElementById('email').value)">
+                     disabled="disabled" >
             </form>
           </div>
         </div>
