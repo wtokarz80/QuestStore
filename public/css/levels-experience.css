@@ -1,19 +1,11 @@
+header {
+    background: url(../../resources/img/class.jpg) no-repeat center center;
 
-.options ul li a div {
-    background: url(../../resources/img/severus.png) no-repeat center center;
-    background-size: cover;
-    margin: 1em;
-    padding: 5%;
-    /* width: 10vh; */
-    height: 30vh;
 }
 
-.options ul li a:hover {
-    background-color: transparent;
-    color: black;
-    cursor: auto;
+.options ul li a {
+    margin-top: 4em;
 }
-
 
 .main-content {
     max-width: 64%;
@@ -21,7 +13,6 @@
 
 
 .items-content {
-    /* padding-left: 40%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -49,6 +40,10 @@ form > .input {
 
 }
 
+#description {
+    height: 20vh;
+}
+
 
 #button {
     display: flex;
@@ -64,7 +59,7 @@ button {
     color: black;
     height: 4vh;
     width: 10vh;
-    
+
 }
 
 button:hover {
@@ -76,18 +71,29 @@ button, form > input {
     border-radius: 5px;
 }
 
-#right-bar-left div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2em;
+
+form {
+
+    margin-top: 2vh;
+    margin-left: 1vh;
 }
 
-#right-bar-left h2 {
-    font-size: 1.2em;
-    margin-left: 0.5em;
+form .radio input {
+    margin-left: 2em;
+    height: 2vh;
 }
-#right-bar-left p {
-    font-size: 1.2em;
-    margin-left: 0.5em;
+
+
+#right-bar-left h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#avatar {
+    background: url(../../resources/img/class.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    height: 30vh;
 }

@@ -19,15 +19,14 @@
                 <h1>School of Code</h1><br>
                 <p>Magical ways of coding</p>
             </div>
-
         </header>
 
-        <nav class="navbar">
+        <nav>
             <ul>
-                <li><a href="#">Start</a></li>
+                <li><a href="login-page.html">Start</a></li>
                 <li><a href="#">Quests</a></li>
                 <li><a href="#">Rewards</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="login-page.html">Logout</a></li>
             </ul>
 
         </nav>
@@ -44,39 +43,40 @@
                 </div>
             </aside>
 
-            <section class="maincontent">
+            <section class="main-content">
                 <div class="items-content">
                     
                     <form action="#">
                         <h1>UPDATE ARTIFACT</h1>
-                        <input class="input" name="name" type="text" placeholder="Name of artifact">
-                        <input class="input" name="value" type="text" placeholder="Value">
-                        <textarea class="input" id="description" type="text" placeholder="Description"></textarea>
+                        <label for="name"></label>
+                        <input class="input" id="name" type="text" placeholder="Name of artifact">
+
+                        <label for="value"></label>
+                        <input class="input" id="value" type="text" placeholder="Value">
+
+                        <label for="description"></label>
+                        <textarea class="input" id="description" placeholder="Description"></textarea>
+
                         <div id="button">
                             <button type="submit">SUBMIT</button>
                         <button type="reset">RESET</button>
                         <div class="radio">
-                            <input id="quest-basic" type="radio" name="role"> Individual</input>
-                            <input id="quest-extra" type="radio" name="role"> Group</input>
+                            <label><input id="quest-basic" type="radio" name="role"> Individual</label>
+                            <label><input id="quest-extra" type="radio" name="role"> Group</label>
                         </div>
                         </div>
-                        
-
                     </form>
                     <div id="item">
-
                     </div>
-
-
                 </div>
             </section>
 
             <aside class="right-bar">
                 <div id="right-bar-left">
-                    <div id="name">
+                    <div>
                         <h2>Name:</h2>
                         <p>Day out of school</p></div>
-                    <div id="value">
+                    <div>
                         <h2>Value:</h2>
                         <p>20000 mc</p></div>
                     <div id="artifact-description">
@@ -85,7 +85,6 @@
                     </div>
                 </div>
                 <div id="right-bar-right">
-
                 </div>
             </aside>
 

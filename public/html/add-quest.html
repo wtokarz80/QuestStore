@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/add-quest.css">
+    <link rel="stylesheet" type="text/css" href="../css/add-artifact.css">
     <link rel="icon" href="../../resources/img/favicon.ico">
-    <title>Add artefact</title>
+    <title>Add quest</title>
 </head>
 
 <body>
@@ -21,42 +21,45 @@
 
         </header>
 
-        <nav class="navbar">
+        <nav>
             <ul>
-                <li><a href="#">Start</a></li>
+                <li><a href="login-page.html">Start</a></li>
                 <li><a href="#">Quests</a></li>
                 <li><a href="#">Rewards</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="login-page.html">Logout</a></li>
             </ul>
 
         </nav>
 
         <main>
-
             <aside class="options">
-                <div id="options-left"></div>
                 <div id="options-right">
-                    <h1>Quest</h1>
-                    <ul>
-                        <li><a href="#"><div></div></a></li>
-                    </ul>
+                  <ul>
+                    <li><a href="#"><p>ACTION</p></a></li>
+                  </ul>
                 </div>
-            </aside>
+              </aside>
 
-            <section class="maincontent">
+            <section class="main-content">
                 <div class="items-content">
                     
                     <form action="#">
                         <h1>NEW QUEST</h1>
-                        <input class="input" name="name" type="text" placeholder="Name of quest">
-                        <input class="input" name="price" type="text" placeholder="Value">
-                        <textarea class="input" id="description" type="text" placeholder="Description"></textarea>
+                        <label for="name"></label>
+                        <input class="input" id="name" type="text" placeholder="Name of artifact">
+
+                        <label for="price"></label>
+                        <input class="input" id="price" type="text" placeholder="Value">
+
+                        <label for="description"></label>
+                        <textarea class="input" id="description" placeholder="Description"></textarea>
+
                         <div id="button">
                             <button type="submit">SUBMIT</button>
                         <button type="reset">RESET</button>
                         <div class="radio">
-                            <input id="quest-basic" type="radio" name="role"> Basic</input>
-                            <input id="quest-extra" type="radio" name="role"> Extra</input>
+                            <label><input id="quest-basic" type="radio" name="role"> Individual</label>
+                            <label><input id="quest-extra" type="radio" name="role"> Group</label>
                         </div>
                         </div>
                         
@@ -65,18 +68,18 @@
                     <div id="item">
 
                     </div>
-
-
                 </div>
             </section>
 
-            <aside class="right-bar">
+            <aside class="right-bar">    
                 <div id="right-bar-left">
-
-
+                    <h1>QUEST</h1>
+                    
+                    <div id="avatar">
+                        
+                    </div>
                 </div>
                 <div id="right-bar-right">
-
                 </div>
             </aside>
 

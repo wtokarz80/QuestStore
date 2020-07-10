@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Garamond, monospace;
+
     
 }
 
@@ -30,6 +32,7 @@ header {
     width: 100%;
     background: url(../../resources/img/train.jpg) no-repeat center center;
     background-size: cover;
+
 }
 
 header div {
@@ -133,12 +136,7 @@ main {
 
 .options ul li a {
     margin-bottom: 1em;
-    /* border-radius: 20px; */
     display: block;
-    /* background-color: black; */
-    /*background-color: #eee;*/
-    /* width: 8vw; */
-
     font-size: 1.2em;
     color: white;
     text-decoration: none;
@@ -154,21 +152,18 @@ main {
 }
 
 .options ul li a:hover {
-    /* background: rgba(0,0,0,0.5); */
-    /* background: rgba(228, 217, 111, 1); */
     background: rgba(255, 215, 0, 0.6);
     color: black;
     cursor: pointer;
-    /* border: 2px solid black; */
 }
 
 /* MAIN CONTENT */
 
-.maincontent {
+.main-content {
     max-width: 72%;
 }
 
-.maincontent h1 {
+.main-content h1 {
     text-align: center;
     margin: 1em;
 }
@@ -190,21 +185,20 @@ main {
     width: 10.6em;
     height: 15em;
     background-color: blue;
+    border-radius: 20px;
 }
 
 
 /* RIGHT SITE BAR */
-
+ 
 .right-bar {
     display: flex;
     flex-direction: row;
     width: 14%;
-    /* min-height: 50vh; */
-    /* background-color:dimgrey; */
+
 }
 
 #right-bar-left {
-    /*background-color: #eee;*/
     background-color: rgba(0,0,0,0.2);
     width: 100%;
     
@@ -215,11 +209,6 @@ main {
     margin-left: 0.5em;
 }
 
-/* #right-bar-right {
-    background-color: white;
-    width: 30%;
-} */
-
 
 footer {
     color: white;
@@ -229,3 +218,22 @@ footer {
     text-align: center;
 
 }
+.options ul li a div {
+    background: url(../../resources/img/card_template.png) no-repeat center center;
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    height: 30vh;
+}
+
+
+
+.right-bar img {
+    background-size: cover;
+    margin: 1em;
+    padding: 5%;
+    height: 28vh;
+}
+
+
+
