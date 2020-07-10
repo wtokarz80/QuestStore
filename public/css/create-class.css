@@ -1,12 +1,5 @@
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    height: 40vh;
-    width: 100%;
+header{
     background: url(../../resources/img/class.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .options ul li a {
@@ -78,7 +71,7 @@ button, form > input {
 }
 
 
-form .radio {
+form  {
 
     margin-top: 2vh;
     margin-left: 1vh;
